@@ -1,7 +1,7 @@
 # Win32 API With C Programming
 Any Windows programming should have  a main entry point. WinMain() function is the entry point of windows API which is called by the system as the initial entry point for a Win32-based application.
 
-###WinMain Syntax
+### WinMain Syntax
 ```
 int WINAPI WinMain(
   HINSTANCE hInstance,     /* [input] handle to current instance */
