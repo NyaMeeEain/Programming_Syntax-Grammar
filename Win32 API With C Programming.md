@@ -3,10 +3,10 @@
 ### WinMain Syntax
 ```
 int WINAPI WinMain(
-  HINSTANCE hInstance,     /* [input] handle to current instance */
-  HINSTANCE hPrevInstance, /* [input] handle to previous instance */
-  LPSTR lpCmdLine,         /* [input] pointer to command line */
-  int nCmdShow             /* [input] show state of window */
+  HINSTANCE hInstance,     
+  HINSTANCE hPrevInstance, 
+  LPSTR lpCmdLine,        
+  int nCmdShow            
 );
 
 ```
