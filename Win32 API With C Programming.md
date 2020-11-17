@@ -66,7 +66,7 @@ int main()
 }
 
 ```
-### If A userAction is required The WaitForSingleObject Function should be incorporated
+### If Any user Action is required The WaitForSingleObject Function should be incorporated
 ```
 #include <Windows.h>
 
