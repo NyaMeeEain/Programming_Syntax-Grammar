@@ -79,7 +79,7 @@ int main()
       
       WaitForSingleObject(pi.hProcess, INFINITE);
 
-      // Process has exited - check its exit code
+      
       DWORD exitCode;
       GetExitCodeProcess(pi.hProcess, &exitCode);
 
