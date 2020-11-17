@@ -11,10 +11,13 @@ int WINAPI WinMain(
 );
 
 ```
+### Parameter
 * hInstance - Handle to the current instance of the application.
 * hPrevInstance - Handle to the previous instance of the application. For a Win32-based application, **this parameter always must be NULL**
 * lpCmdLine - Pointer to a null-terminated string specifying the command line for the application, excluding the program name. To retrieve the entire command line, use the GetCommandLine() function.
 * nCmdShow - Specifies how the window is to be shown
+
+
 ### for example
 ```
 #include <windows.h>
