@@ -53,3 +53,16 @@ printf("%f \n", salary);
 printf("%c \n", letter);
 return 0;}
 ```
+### Array
+```
+
+#include<stdio.h>
+int main{
+int a[7] = {1,2,3,4,5,6,7};
+int i;
+for(i=0;i<7;i++){
+printf(“%d\n”,a[i]);
+}
+return 0;
+}
+```
