@@ -164,3 +164,26 @@ namespace Classs_Tut
 }
 
 ```
+
+### Array In C#
+```
+using System;
+
+
+
+
+namespace Classs_Tut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] ary = { "Thiri Soe ", "Marlene Lwin", "Aeindra", "Sanda","Kaymar Khaing" ,"NIlar"};
+            Console.WriteLine(ary[3]);
+
+        }
+
+
+    }
+}
+```
