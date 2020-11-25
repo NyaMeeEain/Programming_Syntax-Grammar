@@ -34,3 +34,38 @@ namespace Classs_Tut
 }
 
 ```
+
+### Calling Object into Main Classs
+```
+
+using System;
+using System.Windows;
+using System.Windows.Forms;
+
+
+namespace Classs_Tut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            new Test().Test_Object();
+            new BMW(). BMW_Object();
+        }
+    }
+    class Test {
+        public  void Test_Object()
+        {
+            MessageBox.Show("Hello");
+        }
+    }
+    class BMW { 
+        public  void BMW_Object()
+        {
+            Console.WriteLine("Hello, This is BMW Class");
+        }
+    }
+}
+
+```
