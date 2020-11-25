@@ -139,3 +139,28 @@ namespace Classs_Tut
 }
 
 ```
+### Calling Method Into The main Function
+```
+using System;
+
+
+
+
+namespace Classs_Tut
+{
+    class Methods //Methods Class
+    {
+        static void Main(string[] Methods) //Define Methods Class into Main Function
+        {
+            Methods_Will_Be_Here(); // Calling Method Into The main Function
+        }
+        static void Methods_Will_Be_Here()
+        {
+            Console.WriteLine("Hello This is Methods");
+        }
+    }
+
+   
+}
+
+```
