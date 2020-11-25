@@ -35,7 +35,7 @@ namespace Classs_Tut
 
 ```
 
-### Calling Object into Main Classs
+### Instance object c# Calling Object into Main Classs
 ```
 
 using System;
