@@ -103,3 +103,39 @@ namespace Classs_Tut
 }
 
 ```
+
+### Undeclared Variable 
+```
+using System;
+
+
+
+
+namespace Classs_Tut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var memory = new car(); // All the Data from Name will be stored into memory variable
+            memory.name = "BMW";
+            memory.name = "Ford";
+            memory.name = "Tesla";
+            memory.name = "Volkswagen";
+            memory.name = "Chevrolet ";
+            memory.name = "Toyota";
+            System.Console.WriteLine(memory.name);
+            System.Console.WriteLine(memory.name);
+            System.Console.WriteLine(memory.name); //Calling The Name from Main Function in order to execute
+        }
+    }
+
+    class car
+    {
+        public string name; //undeclared variable 
+
+
+    }
+}
+
+```
